@@ -1,0 +1,65 @@
+@keyframes go {
+    0%{
+        transform:translateX(10px)
+    }
+    100%{
+        transform:translateX(500px)
+    }
+}
+
+div{
+    animation: go 4s ease-in-out;
+}
+
+.group{
+    width: 150px;
+    height: 55px;
+    background-color: darkred;
+    border-radius: 20px 20px 15px 15px;
+
+}
+
+.group2{
+    width:105px;
+    height: 50px;
+    background-color: darkred;
+    margin-top: 550px;
+    margin-left: 22px;
+    border-radius: 25px 25px 0px 0px;;
+}
+
+.group3{
+    width:35px;
+    height:35px;
+    background-color: lightblue;
+    margin-left: 80px;
+    margin-top: -95px;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.group4{
+    width:35px;
+    height:35px;
+    background-color: lightblue;
+    margin-left: 35px;
+    margin-top: -35px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.group5{
+    width:45px;
+    height:45px;
+    border-radius: 35px 35px 35px 35px;
+    background-color: rgb(78, 78, 78);
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.group6{
+    width:45px;
+    height:45px;
+    border-radius: 35px 35px 35px 35px;
+    background-color: rgb(78, 78, 78);
+    margin-left: 80px;
+    margin-top: -45px;
+}
